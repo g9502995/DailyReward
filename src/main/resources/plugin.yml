@@ -1,8 +1,7 @@
 name: DailyReward
-main: shian.daily.main
+main: shian.daily.Main
 version: 1.0.0
 description: 測試
-api-version: 1.19
 permissions:
   dailyreward.*:
     description: Allow
@@ -16,9 +15,9 @@ permissions:
     description: 每日禮包設定
     default: op
 commands:
-  daily:
+  dailyreward:
     description: 每日禮包
-    aliases: [dy,dl]
+    aliases: [dr,dy]
   dailyadmin:
     description: 禮包設置
 
